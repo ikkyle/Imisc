@@ -1,6 +1,6 @@
 Imisc
 =====
-A bunch of functions for doing useful things. 
+A bunch of functions for doing things. 
 
 * `unknownToNA` and `trim` were copied verbatim from the `gdata` package.
 * `plot_effects` is an ever so slightly "improved" version of `plot.eff` from the `effects` package. 

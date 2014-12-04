@@ -5,7 +5,7 @@ Version: 1.0
 Date: 2014-12-04
 Author: Ian Kyle
 Maintainer: Ian Kyle <iankyle1@gmail.com>
-Description: A bunch of random functions that make life easier
+Description: A bunch of random functions that make life easier. I guess. 
 License: GPL
 Imports: gdata, effects
 Depends: RPushbullet, beepr

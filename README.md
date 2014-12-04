@@ -7,4 +7,4 @@ A bunch of functions for doing useful things.
 * `number2words` was copied verbatim from John Fox's function in some issue of the R journal.
 * `paste_ws` was copied from a stack overflow post and reworked a bit (and renamed to sound a bit more like the MySQL function `CONCAT_WS`)
 
-cool beans. 
+I might document things eventually. I might not. In the meantime, go have a beer. Cheers. 

@@ -14,7 +14,7 @@ system.done <- function(expr, dev=1){
            pbPost(type='note',
                   title='Error',
                   body=geterrmessage(), 
-                  deviceind=dev)
+                  recipients=dev)
            beep()})
   expr
   new.time <- proc.time()

@@ -23,7 +23,7 @@ system.done <- function(expr, dev=1){
     pbPost(type='note',
            title='Done!',
            body=paste('expression took ', round((new.time - time)/ 60, 2), ' minutes'), 
-           deviceind=dev)
+           recipients=dev)
   
   beep()
   

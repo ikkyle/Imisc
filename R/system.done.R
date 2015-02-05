@@ -19,10 +19,10 @@ system.done <- function(expr, dev=1){
   expr
   new.time <- proc.time()
   on.exit()
-  
     pbPost(type='note',
            title='Done!',
-           body=paste('expression took ', round((new.time - time)/ 60, 2), ' minutes'), 
+           body=paste('expression took ', 
+                      round((new.time - time)[['elapsed']]/ 60, 2), ' minutes'), 
            recipients=dev)
   
   beep()

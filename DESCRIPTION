@@ -7,5 +7,4 @@ Author: Ian Kyle
 Maintainer: Ian Kyle <iankyle1@gmail.com>
 Description: A bunch of random functions that make life easier. I guess. 
 License: GPL
-Imports: gdata, effects
-Depends: RPushbullet, beepr
+Imports: RPushbullet, beepr, DBI, RSQLite

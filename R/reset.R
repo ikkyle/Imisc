@@ -7,8 +7,7 @@ reset <- function(prompt=TRUE, pkgs = FALSE){
     p <- 'y'
   }
   if (tolower(p) == 'y') {
-    rm(list=ls(.GlobalEnv, all.names=TRUE), 
-       inherits=TRUE)
+    rm(list=ls(.GlobalEnv, all.names=TRUE), envir=.GlobalEnv)
     gc(FALSE)
     cat('\14') 
     if (pkgs) {

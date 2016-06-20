@@ -24,4 +24,5 @@ reset <- function(prompt=TRUE, pkgs = FALSE){
   } else {
     cat('Reset cancelled')
   }
+  sessionInfo()
 }
